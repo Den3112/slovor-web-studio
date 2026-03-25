@@ -1,0 +1,1038 @@
+
+ RUN  v3.2.4 /home/creator/PROJECTS/Slovor Web Studio
+      Coverage enabled with v8
+
+ ✓ |@paperclipai/shared| src/api.test.ts (3 tests) 16ms
+ ✓ |@paperclipai/shared| src/project-mentions.test.ts (2 tests) 22ms
+ ✓ |@paperclipai/shared| src/project-url-key.test.ts (6 tests) 18ms
+ ✓ |@paperclipai/shared| src/agent-url-key.test.ts (8 tests) 16ms
+ ✓ |@paperclipai/shared| src/constants.test.ts (4 tests) 12ms
+ ✓ |@paperclipai/shared| src/config-schema.test.ts (4 tests) 39ms
+ ✓ |@paperclipai/shared| src/validators/index.test.ts (7 tests) 37ms
+
+ Test Files  7 passed (7)
+      Tests  34 passed (34)
+   Start at  23:34:52
+   Duration  19.21s (transform 1.96s, setup 0ms, collect 3.31s, tests 160ms, environment 7ms, prepare 8.09s)
+
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   26.54 |     3.89 |    1.77 |   26.54 |                   
+ cli               |       0 |        0 |       0 |       0 |                   
+  ...ld.config.mjs |       0 |        0 |       0 |       0 | 1-65              
+ cli/src           |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-160             
+ cli/src/adapters  |   96.92 |        0 |       0 |   96.92 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  registry.ts      |     100 |      100 |     100 |     100 |                   
+ .../adapters/http |     100 |      100 |     100 |     100 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+ ...apters/process |     100 |      100 |     100 |     100 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+ cli/src/checks    |     100 |      100 |     100 |     100 |                   
+  ...cret-check.ts |     100 |      100 |     100 |     100 |                   
+  config-check.ts  |     100 |      100 |     100 |     100 |                   
+  ...base-check.ts |     100 |      100 |     100 |     100 |                   
+  ...auth-check.ts |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+  llm-check.ts     |     100 |      100 |     100 |     100 |                   
+  log-check.ts     |     100 |      100 |     100 |     100 |                   
+  path-resolver.ts |     100 |      100 |     100 |     100 |                   
+  port-check.ts    |     100 |      100 |     100 |     100 |                   
+  secrets-check.ts |     100 |      100 |     100 |     100 |                   
+  storage-check.ts |     100 |      100 |     100 |     100 |                   
+ cli/src/client    |     100 |      100 |     100 |     100 |                   
+  board-auth.ts    |     100 |      100 |     100 |     100 |                   
+  command-label.ts |     100 |      100 |     100 |     100 |                   
+  context.ts       |     100 |      100 |     100 |     100 |                   
+  http.ts          |     100 |      100 |     100 |     100 |                   
+ cli/src/commands  |     100 |      100 |     100 |     100 |                   
+  ...d-hostname.ts |     100 |      100 |     100 |     100 |                   
+  ...tstrap-ceo.ts |     100 |      100 |     100 |     100 |                   
+  configure.ts     |     100 |      100 |     100 |     100 |                   
+  db-backup.ts     |     100 |      100 |     100 |     100 |                   
+  doctor.ts        |     100 |      100 |     100 |     100 |                   
+  env.ts           |     100 |      100 |     100 |     100 |                   
+  heartbeat-run.ts |     100 |      100 |     100 |     100 |                   
+  onboard.ts       |     100 |      100 |     100 |     100 |                   
+  run.ts           |     100 |      100 |     100 |     100 |                   
+  worktree-lib.ts  |     100 |      100 |     100 |     100 |                   
+  ...istory-lib.ts |     100 |      100 |     100 |     100 |                   
+  worktree.ts      |     100 |      100 |     100 |     100 |                   
+ ...ommands/client |     100 |      100 |     100 |     100 |                   
+  activity.ts      |     100 |      100 |     100 |     100 |                   
+  agent.ts         |     100 |      100 |     100 |     100 |                   
+  approval.ts      |     100 |      100 |     100 |     100 |                   
+  auth.ts          |     100 |      100 |     100 |     100 |                   
+  common.ts        |     100 |      100 |     100 |     100 |                   
+  company.ts       |     100 |      100 |     100 |     100 |                   
+  context.ts       |     100 |      100 |     100 |     100 |                   
+  dashboard.ts     |     100 |      100 |     100 |     100 |                   
+  issue.ts         |     100 |      100 |     100 |     100 |                   
+  plugin.ts        |     100 |      100 |     100 |     100 |                   
+ cli/src/config    |     100 |      100 |     100 |     100 |                   
+  data-dir.ts      |     100 |      100 |     100 |     100 |                   
+  env.ts           |     100 |      100 |     100 |     100 |                   
+  home.ts          |     100 |      100 |     100 |     100 |                   
+  hostnames.ts     |     100 |      100 |     100 |     100 |                   
+  schema.ts        |     100 |      100 |     100 |     100 |                   
+  secrets-key.ts   |     100 |      100 |     100 |     100 |                   
+  store.ts         |     100 |      100 |     100 |     100 |                   
+ cli/src/prompts   |     100 |      100 |     100 |     100 |                   
+  database.ts      |     100 |      100 |     100 |     100 |                   
+  llm.ts           |     100 |      100 |     100 |     100 |                   
+  logging.ts       |     100 |      100 |     100 |     100 |                   
+  secrets.ts       |     100 |      100 |     100 |     100 |                   
+  server.ts        |     100 |      100 |     100 |     100 |                   
+  storage.ts       |     100 |      100 |     100 |     100 |                   
+ cli/src/utils     |     100 |      100 |     100 |     100 |                   
+  banner.ts        |     100 |      100 |     100 |     100 |                   
+  net.ts           |     100 |      100 |     100 |     100 |                   
+  path-resolver.ts |     100 |      100 |     100 |     100 |                   
+ ...openclaw-smoke |       0 |        0 |       0 |       0 |                   
+  server.mjs       |       0 |        0 |       0 |       0 | 1-103             
+ ...ocomplete/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ .../commands/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...avascript/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ .../language/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...rror/lint/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...or/search/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...ror/state/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...rror/view/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...er/common/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...highlight/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...avascript/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...@lezer/lr/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...ster-break/src |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...odemirror/dist |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ..._modules/crelt |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ .../style-mod/src |     100 |      100 |     100 |     100 |                   
+  style-mod.js     |     100 |      100 |     100 |     100 |                   
+ ...es/w3c-keyname |     100 |      100 |     100 |     100 |                   
+  index.js         |     100 |      100 |     100 |     100 |                   
+ ...modules/zod/v3 |     100 |      100 |     100 |     100 |                   
+  ZodError.js      |     100 |      100 |     100 |     100 |                   
+  errors.js        |     100 |      100 |     100 |     100 |                   
+  external.js      |     100 |      100 |     100 |     100 |                   
+  types.js         |     100 |      100 |     100 |     100 |                   
+ ...zod/v3/helpers |     100 |      100 |     100 |     100 |                   
+  errorUtil.js     |     100 |      100 |     100 |     100 |                   
+  parseUtil.js     |     100 |      100 |     100 |     100 |                   
+  util.js          |     100 |      100 |     100 |     100 |                   
+ ...zod/v3/locales |     100 |      100 |     100 |     100 |                   
+  en.js            |     100 |      100 |     100 |     100 |                   
+ ...pter-utils/src |   54.43 |        0 |       0 |   54.43 |                   
+  billing.ts       |       0 |        0 |       0 |       0 | 1-20              
+  index.ts         |       0 |        0 |       0 |       0 | 1-53              
+  log-redaction.ts |       0 |        0 |       0 |       0 | 1-96              
+  server-utils.ts  |     100 |      100 |     100 |     100 |                   
+  ...compaction.ts |       0 |        0 |       0 |       0 | 1-175             
+  types.ts         |       0 |        0 |       0 |       0 | 1-350             
+ ...aude-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-37              
+ ...-local/src/cli |   44.19 |        0 |       0 |   44.19 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+  quota-probe.ts   |       0 |        0 |       0 |       0 | 1-124             
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-590             
+  index.ts         |       0 |        0 |       0 |       0 | 1-72              
+  parse.ts         |       0 |        0 |       0 |       0 | 1-179             
+  quota.ts         |       0 |        0 |       0 |       0 | 1-531             
+  skills.ts        |       0 |        0 |       0 |       0 | 1-121             
+  test.ts          |       0 |        0 |       0 |       0 | 1-223             
+ ...e-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-101             
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-144             
+ ...odex-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-47              
+ ...-local/src/cli |   66.95 |        0 |       0 |   66.95 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+  quota-probe.ts   |       0 |        0 |       0 |       0 | 1-112             
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  codex-home.ts    |       0 |        0 |       0 |       0 | 1-103             
+  execute.ts       |       0 |        0 |       0 |       0 | 1-604             
+  index.ts         |       0 |        0 |       0 |       0 | 1-66              
+  parse.ts         |       0 |        0 |       0 |       0 | 1-73              
+  quota.ts         |       0 |        0 |       0 |       0 | 1-556             
+  skills.ts        |       0 |        0 |       0 |       0 | 1-87              
+  test.ts          |       0 |        0 |       0 |       0 | 1-223             
+ ...x-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-107             
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-259             
+ ...rsor-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-83              
+ ...-local/src/cli |   99.68 |        0 |       0 |   99.68 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-532             
+  index.ts         |       0 |        0 |       0 |       0 | 1-65              
+  parse.ts         |       0 |        0 |       0 |       0 | 1-162             
+  skills.ts        |       0 |        0 |       0 |       0 | 1-91              
+  test.ts          |       0 |        0 |       0 |       0 | 1-210             
+ ...cal/src/shared |      64 |        0 |       0 |      64 |                   
+  stream.ts        |     100 |      100 |     100 |     100 |                   
+  trust.ts         |       0 |        0 |       0 |       0 | 1-9               
+ ...r-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-82              
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-407             
+ ...mini-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-47              
+ ...-local/src/cli |   99.52 |        0 |       0 |   99.52 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-465             
+  index.ts         |       0 |        0 |       0 |       0 | 1-71              
+  parse.ts         |       0 |        0 |       0 |       0 | 1-281             
+  skills.ts        |       0 |        0 |       0 |       0 | 1-91              
+  test.ts          |       0 |        0 |       0 |       0 | 1-239             
+  utils.ts         |       0 |        0 |       0 |       0 | 1-8               
+ ...i-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-76              
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-274             
+ ...aw-gateway/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-54              
+ ...ateway/src/cli |   95.83 |        0 |       0 |   95.83 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+ ...way/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-1434            
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  test.ts          |       0 |        0 |       0 |       0 | 1-317             
+ ...way/src/shared |       0 |        0 |       0 |       0 |                   
+  stream.ts        |       0 |        0 |       0 |       0 | 1-16              
+ ...gateway/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-30              
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-75              
+ ...code-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-40              
+ ...-local/src/cli |   99.18 |        0 |       0 |   99.18 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-406             
+  index.ts         |       0 |        0 |       0 |       0 | 1-72              
+  models.ts        |       0 |        0 |       0 |       0 | 1-209             
+  parse.ts         |       0 |        0 |       0 |       0 | 1-99              
+  skills.ts        |       0 |        0 |       0 |       0 | 1-95              
+  test.ts          |       0 |        0 |       0 |       0 | 1-319             
+ ...e-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-76              
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-152             
+ ...s/pi-local/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-40              
+ ...-local/src/cli |   99.07 |        0 |       0 |   99.07 |                   
+  format-event.ts  |     100 |      100 |     100 |     100 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1                 
+ ...cal/src/server |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-504             
+  index.ts         |       0 |        0 |       0 |       0 | 1-61              
+  models.ts        |       0 |        0 |       0 |       0 | 1-208             
+  parse.ts         |       0 |        0 |       0 |       0 | 1-211             
+  skills.ts        |       0 |        0 |       0 |       0 | 1-91              
+  test.ts          |       0 |        0 |       0 |       0 | 1-295             
+ ...i-local/src/ui |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-72              
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-179             
+ packages/db       |       0 |        0 |       0 |       0 |                   
+  ...zle.config.ts |       0 |        0 |       0 |       0 | 1-10              
+ packages/db/src   |   63.01 |        0 |       0 |   63.01 |                   
+  backup-lib.ts    |     100 |      100 |     100 |     100 |                   
+  backup.ts        |       0 |        0 |       0 |       0 | 1-122             
+  client.ts        |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+  migrate.ts       |       0 |        0 |       0 |       0 | 1-29              
+  ...on-runtime.ts |       0 |        0 |       0 |       0 | 1-200             
+  ...ion-status.ts |       0 |        0 |       0 |       0 | 1-61              
+  ...ime-config.ts |       0 |        0 |       0 |       0 | 1-267             
+  seed.ts          |       0 |        0 |       0 |       0 | 1-99              
+  verify_reseed.ts |       0 |        0 |       0 |       0 | 1-23              
+ .../db/src/schema |     100 |      100 |     100 |     100 |                   
+  activity_log.ts  |     100 |      100 |     100 |     100 |                   
+  ...t_api_keys.ts |     100 |      100 |     100 |     100 |                   
+  ..._revisions.ts |     100 |      100 |     100 |     100 |                   
+  ...time_state.ts |     100 |      100 |     100 |     100 |                   
+  ...k_sessions.ts |     100 |      100 |     100 |     100 |                   
+  ...p_requests.ts |     100 |      100 |     100 |     100 |                   
+  agents.ts        |     100 |      100 |     100 |     100 |                   
+  ...l_comments.ts |     100 |      100 |     100 |     100 |                   
+  approvals.ts     |     100 |      100 |     100 |     100 |                   
+  assets.ts        |     100 |      100 |     100 |     100 |                   
+  auth.ts          |     100 |      100 |     100 |     100 |                   
+  ...d_api_keys.ts |     100 |      100 |     100 |     100 |                   
+  ..._incidents.ts |     100 |      100 |     100 |     100 |                   
+  ...t_policies.ts |     100 |      100 |     100 |     100 |                   
+  ...challenges.ts |     100 |      100 |     100 |     100 |                   
+  companies.ts     |     100 |      100 |     100 |     100 |                   
+  company_logos.ts |     100 |      100 |     100 |     100 |                   
+  ...emberships.ts |     100 |      100 |     100 |     100 |                   
+  ...t_versions.ts |     100 |      100 |     100 |     100 |                   
+  ...ny_secrets.ts |     100 |      100 |     100 |     100 |                   
+  ...any_skills.ts |     100 |      100 |     100 |     100 |                   
+  cost_events.ts   |     100 |      100 |     100 |     100 |                   
+  ..._revisions.ts |     100 |      100 |     100 |     100 |                   
+  documents.ts     |     100 |      100 |     100 |     100 |                   
+  ...workspaces.ts |     100 |      100 |     100 |     100 |                   
+  ...nce_events.ts |     100 |      100 |     100 |     100 |                   
+  goals.ts         |     100 |      100 |     100 |     100 |                   
+  ...run_events.ts |     100 |      100 |     100 |     100 |                   
+  ...tbeat_runs.ts |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+  ...e_settings.ts |     100 |      100 |     100 |     100 |                   
+  ...user_roles.ts |     100 |      100 |     100 |     100 |                   
+  invites.ts       |     100 |      100 |     100 |     100 |                   
+  ..._approvals.ts |     100 |      100 |     100 |     100 |                   
+  ...ttachments.ts |     100 |      100 |     100 |     100 |                   
+  ...e_comments.ts |     100 |      100 |     100 |     100 |                   
+  ..._documents.ts |     100 |      100 |     100 |     100 |                   
+  issue_labels.ts  |     100 |      100 |     100 |     100 |                   
+  ...ead_states.ts |     100 |      100 |     100 |     100 |                   
+  ...k_products.ts |     100 |      100 |     100 |     100 |                   
+  issues.ts        |     100 |      100 |     100 |     100 |                   
+  join_requests.ts |     100 |      100 |     100 |     100 |                   
+  labels.ts        |     100 |      100 |     100 |     100 |                   
+  ...y_settings.ts |     100 |      100 |     100 |     100 |                   
+  plugin_config.ts |     100 |      100 |     100 |     100 |                   
+  ...n_entities.ts |     100 |      100 |     100 |     100 |                   
+  plugin_jobs.ts   |     100 |      100 |     100 |     100 |                   
+  plugin_logs.ts   |     100 |      100 |     100 |     100 |                   
+  plugin_state.ts  |     100 |      100 |     100 |     100 |                   
+  ...n_webhooks.ts |     100 |      100 |     100 |     100 |                   
+  plugins.ts       |     100 |      100 |     100 |     100 |                   
+  ...ion_grants.ts |     100 |      100 |     100 |     100 |                   
+  project_goals.ts |     100 |      100 |     100 |     100 |                   
+  ...workspaces.ts |     100 |      100 |     100 |     100 |                   
+  projects.ts      |     100 |      100 |     100 |     100 |                   
+  routines.ts      |     100 |      100 |     100 |     100 |                   
+  ...operations.ts |     100 |      100 |     100 |     100 |                   
+  ...e_services.ts |     100 |      100 |     100 |     100 |                   
+ ...lip-plugin/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-496             
+ ...-smoke-example |       0 |        0 |       0 |       0 |                   
+  ...ld.config.mjs |       0 |        0 |       0 |       0 | 1-17              
+ ...ke-example/src |       0 |        0 |       0 |       0 |                   
+  manifest.ts      |       0 |        0 |       0 |       0 | 1-32              
+  worker.ts        |       0 |        0 |       0 |       0 | 1-27              
+ ...example/src/ui |       0 |        0 |       0 |       0 |                   
+  index.tsx        |       0 |        0 |       0 |       0 | 1-23              
+ ...xample/scripts |       0 |        0 |       0 |       0 |                   
+  build-ui.mjs     |       0 |        0 |       0 |       0 | 1-24              
+ ...er-example/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  manifest.ts      |       0 |        0 |       0 |       0 | 1-85              
+  worker.ts        |       0 |        0 |       0 |       0 | 1-226             
+ ...example/src/ui |       0 |        0 |       0 |       0 |                   
+  index.tsx        |       0 |        0 |       0 |       0 | 1-815             
+ ...ld-example/src |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  manifest.ts      |       0 |        0 |       0 |       0 | 1-39              
+  worker.ts        |       0 |        0 |       0 |       0 | 1-27              
+ ...example/src/ui |       0 |        0 |       0 |       0 |                   
+  index.tsx        |       0 |        0 |       0 |       0 | 1-17              
+ ...xample/scripts |       0 |        0 |       0 |       0 |                   
+  build-ui.mjs     |       0 |        0 |       0 |       0 | 1-24              
+ ...nk-example/src |       0 |        0 |       0 |       0 |                   
+  constants.ts     |       0 |        0 |       0 |       0 | 1-113             
+  index.ts         |       0 |        0 |       0 |       0 | 1-2               
+  manifest.ts      |       0 |        0 |       0 |       0 | 1-290             
+  worker.ts        |       0 |        0 |       0 |       0 | 1-1041            
+ ...example/src/ui |       0 |        0 |       0 |       0 |                   
+  ...Animation.tsx |       0 |        0 |       0 |       0 | 1-363             
+  index.tsx        |       0 |        0 |       0 |       0 | 1-2405            
+ ...lugins/sdk/src |       0 |        0 |       0 |       0 |                   
+  bundlers.ts      |       0 |        0 |       0 |       0 | 1-160             
+  define-plugin.ts |       0 |        0 |       0 |       0 | 1-255             
+  dev-cli.ts       |       0 |        0 |       0 |       0 | 1-54              
+  dev-server.ts    |       0 |        0 |       0 |       0 | 1-228             
+  ...nt-factory.ts |       0 |        0 |       0 |       0 | 1-578             
+  index.ts         |       0 |        0 |       0 |       0 | 1-286             
+  protocol.ts      |       0 |        0 |       0 |       0 | 1-1060            
+  testing.ts       |       0 |        0 |       0 |       0 | 1-735             
+  types.ts         |       0 |        0 |       0 |       0 | 1-1160            
+  ...r-rpc-host.ts |       0 |        0 |       0 |       0 | 1-1241            
+ ...ins/sdk/src/ui |       0 |        0 |       0 |       0 |                   
+  components.ts    |       0 |        0 |       0 |       0 | 1-310             
+  hooks.ts         |       0 |        0 |       0 |       0 | 1-174             
+  index.ts         |       0 |        0 |       0 |       0 | 1-87              
+  runtime.ts       |       0 |        0 |       0 |       0 | 1-51              
+  types.ts         |       0 |        0 |       0 |       0 | 1-381             
+ ...ges/shared/src |   97.29 |    52.72 |     100 |   97.29 |                   
+  agent-url-key.ts |     100 |       90 |     100 |     100 | 6                 
+  api.ts           |     100 |      100 |     100 |     100 |                   
+  config-schema.ts |   87.32 |    33.33 |     100 |   87.32 | ...50-155,158-163 
+  constants.ts     |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+  ...t-mentions.ts |   83.01 |    32.25 |     100 |   83.01 | ...61,80-81,92-93 
+  ...ct-url-key.ts |     100 |      100 |     100 |     100 |                   
+ ...ared/src/types |       0 |        0 |       0 |       0 |                   
+  access.ts        |       0 |        0 |       0 |       0 | 1-81              
+  activity.ts      |       0 |        0 |       0 |       0 | 1-13              
+  ...ter-skills.ts |       0 |        0 |       0 |       0 | 1-45              
+  agent.ts         |       0 |        0 |       0 |       0 | 1-129             
+  approval.ts      |       0 |        0 |       0 |       0 | 1-27              
+  asset.ts         |       0 |        0 |       0 |       0 | 1-15              
+  budget.ts        |       0 |        0 |       0 |       0 | 1-99              
+  ...ortability.ts |       0 |        0 |       0 |       0 | 1-261             
+  company-skill.ts |       0 |        0 |       0 |       0 | 1-152             
+  company.ts       |       0 |        0 |       0 |       0 | 1-20              
+  cost.ts          |       0 |        0 |       0 |       0 | 1-113             
+  dashboard.ts     |       0 |        0 |       0 |       0 | 1-27              
+  finance.ts       |       0 |        0 |       0 |       0 | 1-60              
+  goal.ts          |       0 |        0 |       0 |       0 | 1-14              
+  heartbeat.ts     |       0 |        0 |       0 |       0 | 1-130             
+  index.ts         |       0 |        0 |       0 |       0 | 1-190             
+  instance.ts      |       0 |        0 |       0 |       0 | 1-16              
+  issue.ts         |       0 |        0 |       0 |       0 | 1-177             
+  live.ts          |       0 |        0 |       0 |       0 | 1-9               
+  plugin.ts        |       0 |        0 |       0 |       0 | 1-489             
+  project.ts       |       0 |        0 |       0 |       0 | 1-72              
+  quota.ts         |       0 |        0 |       0 |       0 | 1-26              
+  routine.ts       |       0 |        0 |       0 |       0 | 1-123             
+  secrets.ts       |       0 |        0 |       0 |       0 | 1-43              
+  ...bar-badges.ts |       0 |        0 |       0 |       0 | 1-6               
+  work-product.ts  |       0 |        0 |       0 |       0 | 1-55              
+  ...-operation.ts |       0 |        0 |       0 |       0 | 1-31              
+  ...ce-runtime.ts |       0 |        0 |       0 |       0 | 1-117             
+ ...src/validators |   78.11 |       50 |       0 |   78.11 |                   
+  access.ts        |     100 |      100 |     100 |     100 |                   
+  ...ter-skills.ts |     100 |      100 |     100 |     100 |                   
+  agent.ts         |   90.58 |       50 |     100 |   90.58 | 36-43             
+  approval.ts      |     100 |      100 |     100 |     100 |                   
+  asset.ts         |     100 |      100 |     100 |     100 |                   
+  budget.ts        |   69.23 |      100 |     100 |   69.23 | 28-35             
+  ...ortability.ts |     100 |      100 |     100 |     100 |                   
+  company-skill.ts |     100 |      100 |     100 |     100 |                   
+  company.ts       |   88.23 |      100 |     100 |   88.23 | 37-40             
+  cost.ts          |      92 |      100 |     100 |      92 | 21-22             
+  ...-workspace.ts |     100 |      100 |     100 |     100 |                   
+  finance.ts       |   93.54 |      100 |     100 |   93.54 | 30-31             
+  goal.ts          |     100 |      100 |     100 |     100 |                   
+  index.ts         |     100 |      100 |     100 |     100 |                   
+  instance.ts      |     100 |      100 |     100 |     100 |                   
+  issue.ts         |     100 |      100 |     100 |     100 |                   
+  plugin.ts        |   36.38 |      100 |       0 |   36.38 | ...66-335,417-551 
+  project.ts       |   74.72 |      100 |       0 |   74.72 | 49-73             
+  routine.ts       |     100 |      100 |     100 |     100 |                   
+  secret.ts        |     100 |      100 |     100 |     100 |                   
+  work-product.ts  |     100 |      100 |     100 |     100 |                   
+ scripts           |       0 |        0 |       0 |       0 |                   
+  ...en-tokens.mjs |       0 |        0 |       0 |       0 | 1-115             
+  dev-runner.mjs   |       0 |        0 |       0 |       0 | 1-590             
+  ...uild-deps.mjs |       0 |        0 |       0 |       0 | 1-46              
+  ...kage-json.mjs |       0 |        0 |       0 |       0 | 1-112             
+  ...art-images.ts |       0 |        0 |       0 |       0 | 1-694             
+  ...comparison.ts |       0 |        0 |       0 |       0 | 1-225             
+  ...nv-secrets.ts |       0 |        0 |       0 |       0 | 1-125             
+  ...ckage-map.mjs |       0 |        0 |       0 |       0 | 1-168             
+ server/src        |       0 |        0 |       0 |       0 |                   
+  ...t-auth-jwt.ts |       0 |        0 |       0 |       0 | 1-141             
+  app.ts           |       0 |        0 |       0 |       0 | 1-324             
+  ...ment-types.ts |       0 |        0 |       0 |       0 | 1-74              
+  board-claim.ts   |       0 |        0 |       0 |       0 | 1-149             
+  config-file.ts   |       0 |        0 |       0 |       0 | 1-16              
+  config.ts        |       0 |        0 |       0 |       0 | 1-256             
+  ...ver-status.ts |       0 |        0 |       0 |       0 | 1-103             
+  errors.ts        |       0 |        0 |       0 |       0 | 1-34              
+  home-paths.ts    |       0 |        0 |       0 |       0 | 1-95              
+  index.ts         |       0 |        0 |       0 |       0 | 1-736             
+  log-redaction.ts |       0 |        0 |       0 |       0 | 1-146             
+  paths.ts         |       0 |        0 |       0 |       0 | 1-34              
+  redaction.ts     |       0 |        0 |       0 |       0 | 1-59              
+  ...tup-banner.ts |       0 |        0 |       0 |       0 | 1-175             
+  ui-branding.ts   |       0 |        0 |       0 |       0 | 1-217             
+  version.ts       |       0 |        0 |       0 |       0 | 1-10              
+ ...r/src/adapters |       0 |        0 |       0 |       0 |                   
+  codex-models.ts  |       0 |        0 |       0 |       0 | 1-104             
+  cursor-models.ts |       0 |        0 |       0 |       0 | 1-170             
+  index.ts         |       0 |        0 |       0 |       0 | 1-17              
+  registry.ts      |       0 |        0 |       0 |       0 | 1-224             
+  types.ts         |       0 |        0 |       0 |       0 | 1-29              
+  utils.ts         |       0 |        0 |       0 |       0 | 1-47              
+ .../adapters/http |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-42              
+  index.ts         |       0 |        0 |       0 |       0 | 1-21              
+  test.ts          |       0 |        0 |       0 |       0 | 1-116             
+ ...apters/process |       0 |        0 |       0 |       0 |                   
+  execute.ts       |       0 |        0 |       0 |       0 | 1-77              
+  index.ts         |       0 |        0 |       0 |       0 | 1-24              
+  test.ts          |       0 |        0 |       0 |       0 | 1-89              
+ server/src/auth   |       0 |        0 |       0 |       0 |                   
+  better-auth.ts   |       0 |        0 |       0 |       0 | 1-147             
+ ...src/middleware |       0 |        0 |       0 |       0 |                   
+  auth.ts          |       0 |        0 |       0 |       0 | 1-177             
+  ...tion-guard.ts |       0 |        0 |       0 |       0 | 1-66              
+  error-handler.ts |       0 |        0 |       0 |       0 | 1-71              
+  index.ts         |       0 |        0 |       0 |       0 | 1-3               
+  logger.ts        |       0 |        0 |       0 |       0 | 1-90              
+  ...name-guard.ts |       0 |        0 |       0 |       0 | 1-92              
+  validate.ts      |       0 |        0 |       0 |       0 | 1-9               
+ ...r/src/realtime |       0 |        0 |       0 |       0 |                   
+  ...-events-ws.ts |       0 |        0 |       0 |       0 | 1-273             
+ server/src/routes |       0 |        0 |       0 |       0 |                   
+  access.ts        |       0 |        0 |       0 |       0 | 1-2877            
+  activity.ts      |       0 |        0 |       0 |       0 | 1-88              
+  agents.ts        |       0 |        0 |       0 |       0 | 1-2275            
+  approvals.ts     |       0 |        0 |       0 |       0 | 1-345             
+  assets.ts        |       0 |        0 |       0 |       0 | 1-340             
+  authz.ts         |       0 |        0 |       0 |       0 | 1-44              
+  companies.ts     |       0 |        0 |       0 |       0 | 1-342             
+  ...any-skills.ts |       0 |        0 |       0 |       0 | 1-283             
+  costs.ts         |       0 |        0 |       0 |       0 | 1-334             
+  dashboard.ts     |       0 |        0 |       0 |       0 | 1-18              
+  ...workspaces.ts |       0 |        0 |       0 |       0 | 1-181             
+  goals.ts         |       0 |        0 |       0 |       0 | 1-106             
+  health.ts        |       0 |        0 |       0 |       0 | 1-93              
+  index.ts         |       0 |        0 |       0 |       0 | 1-17              
+  ...e-settings.ts |       0 |        0 |       0 |       0 | 1-94              
+  ...out-wakeup.ts |       0 |        0 |       0 |       0 | 1-14              
+  issues.ts        |       0 |        0 |       0 |       0 | 1-1587            
+  llms.ts          |       0 |        0 |       0 |       0 | 1-85              
+  org-chart-svg.ts |       0 |        0 |       0 |       0 | 1-555             
+  ...-ui-static.ts |       0 |        0 |       0 |       0 | 1-496             
+  plugins.ts       |       0 |        0 |       0 |       0 | 1-2219            
+  projects.ts      |       0 |        0 |       0 |       0 | 1-294             
+  routines.ts      |       0 |        0 |       0 |       0 | 1-299             
+  secrets.ts       |       0 |        0 |       0 |       0 | 1-165             
+  ...bar-badges.ts |       0 |        0 |       0 |       0 | 1-51              
+ ...er/src/secrets |       0 |        0 |       0 |       0 |                   
+  ...-providers.ts |       0 |        0 |       0 |       0 | 1-32              
+  ...d-provider.ts |       0 |        0 |       0 |       0 | 1-135             
+  ...r-registry.ts |       0 |        0 |       0 |       0 | 1-30              
+  types.ts         |       0 |        0 |       0 |       0 | 1-22              
+ ...r/src/services |       0 |        0 |       0 |       0 |                   
+  access.ts        |       0 |        0 |       0 |       0 | 1-380             
+  activity-log.ts  |       0 |        0 |       0 |       0 | 1-94              
+  activity.ts      |       0 |        0 |       0 |       0 | 1-163             
+  ...structions.ts |       0 |        0 |       0 |       0 | 1-641             
+  ...ermissions.ts |       0 |        0 |       0 |       0 | 1-27              
+  agents.ts        |       0 |        0 |       0 |       0 | 1-693             
+  approvals.ts     |       0 |        0 |       0 |       0 | 1-272             
+  assets.ts        |       0 |        0 |       0 |       0 | 1-21              
+  board-auth.ts    |       0 |        0 |       0 |       0 | 1-354             
+  budgets.ts       |       0 |        0 |       0 |       0 | 1-958             
+  companies.ts     |       0 |        0 |       0 |       0 | 1-312             
+  ...ort-readme.ts |       0 |        0 |       0 |       0 | 1-172             
+  ...ortability.ts |       0 |        0 |       0 |       0 | 1-3289            
+  ...any-skills.ts |       0 |        0 |       0 |       0 | 1-2321            
+  costs.ts         |       0 |        0 |       0 |       0 | 1-364             
+  cron.ts          |       0 |        0 |       0 |       0 | 1-373             
+  dashboard.ts     |       0 |        0 |       0 |       0 | 1-109             
+  ...structions.ts |       0 |        0 |       0 |       0 | 1-27              
+  documents.ts     |       0 |        0 |       0 |       0 | 1-433             
+  ...ace-policy.ts |       0 |        0 |       0 |       0 | 1-194             
+  ...workspaces.ts |       0 |        0 |       0 |       0 | 1-99              
+  finance.ts       |       0 |        0 |       0 |       0 | 1-134             
+  goals.ts         |       0 |        0 |       0 |       0 | 1-80              
+  ...un-summary.ts |       0 |        0 |       0 |       0 | 1-35              
+  heartbeat.ts     |       0 |        0 |       0 |       0 | 1-3718            
+  hire-hook.ts     |       0 |        0 |       0 |       0 | 1-113             
+  index.ts         |       0 |        0 |       0 |       0 | 1-32              
+  ...e-settings.ts |       0 |        0 |       0 |       0 | 1-137             
+  ...-approvals.ts |       0 |        0 |       0 |       0 | 1-174             
+  ...ent-wakeup.ts |       0 |        0 |       0 |       0 | 1-48              
+  ...l-fallback.ts |       0 |        0 |       0 |       0 | 1-30              
+  issues.ts        |       0 |        0 |       0 |       0 | 1-1646            
+  live-events.ts   |       0 |        0 |       0 |       0 | 1-54              
+  ...-validator.ts |       0 |        0 |       0 |       0 | 1-449             
+  ...-validator.ts |       0 |        0 |       0 |       0 | 1-54              
+  ...ev-watcher.ts |       0 |        0 |       0 |       0 | 1-339             
+  ...-event-bus.ts |       0 |        0 |       0 |       0 | 1-412             
+  ...ce-cleanup.ts |       0 |        0 |       0 |       0 | 1-59              
+  ...t-services.ts |       0 |        0 |       0 |       0 | 1-1131            
+  ...oordinator.ts |       0 |        0 |       0 |       0 | 1-260             
+  ...-scheduler.ts |       0 |        0 |       0 |       0 | 1-752             
+  ...-job-store.ts |       0 |        0 |       0 |       0 | 1-465             
+  ...-lifecycle.ts |       0 |        0 |       0 |       0 | 1-821             
+  plugin-loader.ts |       0 |        0 |       0 |       0 | 1-1954            
+  ...-retention.ts |       0 |        0 |       0 |       0 | 1-86              
+  ...-validator.ts |       0 |        0 |       0 |       0 | 1-163             
+  ...n-registry.ts |       0 |        0 |       0 |       0 | 1-682             
+  ...me-sandbox.ts |       0 |        0 |       0 |       0 | 1-221             
+  ...ts-handler.ts |       0 |        0 |       0 |       0 | 1-354             
+  ...tate-store.ts |       0 |        0 |       0 |       0 | 1-237             
+  ...stream-bus.ts |       0 |        0 |       0 |       0 | 1-81              
+  ...dispatcher.ts |       0 |        0 |       0 |       0 | 1-448             
+  ...l-registry.ts |       0 |        0 |       0 |       0 | 1-449             
+  ...er-manager.ts |       0 |        0 |       0 |       0 | 1-1342            
+  projects.ts      |       0 |        0 |       0 |       0 | 1-859             
+  quota-windows.ts |       0 |        0 |       0 |       0 | 1-64              
+  routines.ts      |       0 |        0 |       0 |       0 | 1-1268            
+  run-log-store.ts |       0 |        0 |       0 |       0 | 1-155             
+  secrets.ts       |       0 |        0 |       0 |       0 | 1-369             
+  ...bar-badges.ts |       0 |        0 |       0 |       0 | 1-55              
+  work-products.ts |       0 |        0 |       0 |       0 | 1-123             
+  ...-log-store.ts |       0 |        0 |       0 |       0 | 1-156             
+  ...operations.ts |       0 |        0 |       0 |       0 | 1-261             
+  ...ce-runtime.ts |       0 |        0 |       0 |       0 | 1-1564            
+ ...er/src/storage |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-35              
+  ...k-provider.ts |       0 |        0 |       0 |       0 | 1-89              
+  ...r-registry.ts |       0 |        0 |       0 |       0 | 1-18              
+  s3-provider.ts   |       0 |        0 |       0 |       0 | 1-153             
+  service.ts       |       0 |        0 |       0 |       0 | 1-131             
+  types.ts         |       0 |        0 |       0 |       0 | 1-62              
+ ui/dist           |       0 |        0 |       0 |       0 |                   
+  sw.js            |       0 |        0 |       0 |       0 | 1-42              
+ ui/dist/assets    |       0 |        0 |       0 |       0 |                   
+  ...y-DPkBqimL.js |       0 |        0 |       0 |       0 | 1                 
+  ...q-BiS2aVUM.js |       0 |        0 |       0 |       0 | 1                 
+  apl-B4CMkyY2.js  |       0 |        0 |       0 |       0 | 1                 
+  arc-ym1L1Ues.js  |       0 |        0 |       0 |       0 | 1                 
+  ...Q-RH6NFY6l.js |       0 |        0 |       0 |       0 | 1-36              
+  ...r-Df11BRmG.js |       0 |        0 |       0 |       0 | 1                 
+  asn1-EdZsLKOL.js |       0 |        0 |       0 |       0 | 1                 
+  ...k-B-8jnY81.js |       0 |        0 |       0 |       0 | 1                 
+  ...C-BqaFtpRx.js |       0 |        0 |       0 |       0 | 1-122             
+  ...k-C4LP7Hcl.js |       0 |        0 |       0 |       0 | 1                 
+  ...O-Dc7ctCdW.js |       0 |        0 |       0 |       0 | 1-10              
+  ...l-EPzTbCiv.js |       0 |        0 |       0 |       0 | 1                 
+  ...B-CdLlHJRE.js |       0 |        0 |       0 |       0 | 1                 
+  ...6-KKjgJL5M.js |       0 |        0 |       0 |       0 | 1                 
+  ...W-DwjfRFcV.js |       0 |        0 |       0 |       0 | 1-165             
+  ...5-CIZnSdLo.js |       0 |        0 |       0 |       0 | 1-220             
+  ...4-BleX4Okt.js |       0 |        0 |       0 |       0 | 1-15              
+  ...L-DmdoDn0G.js |       0 |        0 |       0 |       0 | 1                 
+  ...N-D1b7IUdS.js |       0 |        0 |       0 |       0 | 1                 
+  ...B-D5UpXI7f.js |       0 |        0 |       0 |       0 | 1                 
+  ...G-BP5GPxPH.js |       0 |        0 |       0 |       0 | 1                 
+  ...B-BP5GPxPH.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-B9uivgTg.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-BMjYHr_A.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-CPfd3uX5.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-BQqOBYOt.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-CWcv1MsR.js |       0 |        0 |       0 |       0 | 1                 
+  ...t-S37ZYGWr.js |       0 |        0 |       0 |       0 | 1                 
+  ...p-DBKNyK5s.js |       0 |        0 |       0 |       0 | 1                 
+  ...A-BHF4Zs0S.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-SjHAIU92.js |       0 |        0 |       0 |       0 | 1                 
+  css-BnMrqG3P.js  |       0 |        0 |       0 |       0 | 1                 
+  ...r-C_CwsFkJ.js |       0 |        0 |       0 |       0 | 1                 
+  ...m-BQaXIfA_.js |       0 |        0 |       0 |       0 | 1-331             
+  d-pRatUO7H.js    |       0 |        0 |       0 |       0 | 1                 
+  ...P-VX1xnIVv.js |       0 |        0 |       0 |       0 | 1-4               
+  ...e-DX6XiGOO.js |       0 |        0 |       0 |       0 | 1                 
+  ...K-DaLpH0e-.js |       0 |        0 |       0 |       0 | 1-24              
+  ...R-DPGR41IP.js |       0 |        0 |       0 |       0 | 1-43              
+  ...G-Ci-KghtE.js |       0 |        0 |       0 |       0 | 1-24              
+  diff-DbItnlRl.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-BKs6k2Af.js |       0 |        0 |       0 |       0 | 1                 
+  dtd-DF_7sFjM.js  |       0 |        0 |       0 |       0 | 1                 
+  ...n-DwRh75JA.js |       0 |        0 |       0 |       0 | 1                 
+  ebnf-CDyGwa7X.js |       0 |        0 |       0 |       0 | 1                 
+  ecl-Cabwm37j.js  |       0 |        0 |       0 |       0 | 1                 
+  ...l-CnydiIhH.js |       0 |        0 |       0 |       0 | 1                 
+  elm-vLlmbW-K.js  |       0 |        0 |       0 |       0 | 1                 
+  ...A-BpUiYRvd.js |       0 |        0 |       0 |       0 | 1-60              
+  ...g-BNw1qcRV.js |       0 |        0 |       0 |       0 | 1                 
+  ...r-kuTfRLto.js |       0 |        0 |       0 |       0 | 1                 
+  fcl-Kvtd6kyn.js  |       0 |        0 |       0 |       0 | 1                 
+  ...S-JLwkpr8e.js |       0 |        0 |       0 |       0 | 1-162             
+  ...h-Ffai-XNe.js |       0 |        0 |       0 |       0 | 1                 
+  ...n-DYz_wnZ1.js |       0 |        0 |       0 |       0 | 1                 
+  ...3-qeWlmKfh.js |       0 |        0 |       0 |       0 | 1-267             
+  gas-Bneqetm1.js  |       0 |        0 |       0 |       0 | 1                 
+  ...n-heZmZLOM.js |       0 |        0 |       0 |       0 | 1                 
+  ...M-FjK0usvO.js |       0 |        0 |       0 |       0 | 1-65              
+  ...h-BFH6I1es.js |       0 |        0 |       0 |       0 | 1                 
+  ...y-D9Dt4D0W.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-Cw1EW3IL.js |       0 |        0 |       0 |       0 | 1                 
+  haxe-H-WmDvRZ.js |       0 |        0 |       0 |       0 | 1                 
+  http-DBlCnlav.js |       0 |        0 |       0 |       0 | 1                 
+  idl-BEugSyMb.js  |       0 |        0 |       0 |       0 | 1                 
+  ...x-7ixfJz2w.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-8BLxImsu.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-BA7swEx6.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-B_wEg8Yq.js |       0 |        0 |       0 |       0 | 1-2               
+  ...x-BbYrMK2p.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-Bc2uPcPS.js |       0 |        0 |       0 |       0 | 1-7               
+  ...x-Bgl_DTTW.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-BlP3TNln.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-BlUUSkvc.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-Blv1ADy4.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-BwXgnoyx.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-CDIpggq9.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-CdSeSTxz.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-DApjRyXx.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-DSTBKYir.js |       0 |        0 |       0 |       0 | 1-1178            
+  ...x-DWS48dj2.js |       0 |        0 |       0 |       0 | 1-6               
+  ...x-DZni6gFK.js |       0 |        0 |       0 |       0 | 1-13              
+  ...x-Dj5M9ts_.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-SaiKlWJF.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-VWLD29jb.js |       0 |        0 |       0 |       0 | 1-3               
+  ...x-bobndUKq.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-qBzCC1z9.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-x6hzpvqf.js |       0 |        0 |       0 |       0 | 1                 
+  ...P-sWXJpMzy.js |       0 |        0 |       0 |       0 | 1-2               
+  init-Gi6I4Gst.js |       0 |        0 |       0 |       0 | 1                 
+  ...t-iXu5QeM3.js |       0 |        0 |       0 |       0 | 1                 
+  ...Q-D5Hwtk1D.js |       0 |        0 |       0 |       0 | 1-139             
+  ...a-DuME0IfC.js |       0 |        0 |       0 |       0 | 1                 
+  ...7-CAAgu-Qu.js |       0 |        0 |       0 |       0 | 1-89              
+  ...x-O9d3_IXG.js |       0 |        0 |       0 |       0 | 1-261             
+  ...t-LhwR0b2j.js |       0 |        0 |       0 |       0 | 1                 
+  ...r-Dp3gmN2H.js |       0 |        0 |       0 |       0 | 1                 
+  ...t-BwQOo05w.js |       0 |        0 |       0 |       0 | 1                 
+  lua-BgMRiT3U.js  |       0 |        0 |       0 |       0 | 1                 
+  ...a-DTrFuWx2.js |       0 |        0 |       0 |       0 | 1                 
+  mbox-CNhZ1qSd.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-BJMPngfL.js |       0 |        0 |       0 |       0 | 1-256             
+  ...T-IBoPVPcC.js |       0 |        0 |       0 |       0 | 1-68              
+  mirc-CjQqDB4T.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-CXdrOF99.js |       0 |        0 |       0 |       0 | 1                 
+  ...a-Dc1JOy9r.js |       0 |        0 |       0 |       0 | 1                 
+  ...n-BA5vi2Kp.js |       0 |        0 |       0 |       0 | 1                 
+  ...s-BT43cFF4.js |       0 |        0 |       0 |       0 | 1                 
+  ...x-DdIZxoE0.js |       0 |        0 |       0 |       0 | 1                 
+  nsis-LdVXkNf5.js |       0 |        0 |       0 |       0 | 1                 
+  ...s-BfvgReVJ.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-Ck1zUtKM.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-Cboi1Yqb.js |       0 |        0 |       0 |       0 | 1                 
+  oz-BzwKVEFT.js   |       0 |        0 |       0 |       0 | 1                 
+  ...l--L3eBynH.js |       0 |        0 |       0 |       0 | 1                 
+  perl-CdXCOZ3F.js |       0 |        0 |       0 |       0 | 1                 
+  ...X-quhAqPlG.js |       0 |        0 |       0 |       0 | 1-30              
+  pig-CevX1Tat.js  |       0 |        0 |       0 |       0 | 1                 
+  ...l-CFHJl5sT.js |       0 |        0 |       0 |       0 | 1                 
+  ...s-C78fOPTZ.js |       0 |        0 |       0 |       0 | 1                 
+  ...f-ChK-085T.js |       0 |        0 |       0 |       0 | 1                 
+  pug-DeIclll2.js  |       0 |        0 |       0 |       0 | 1                 
+  ...t-DMA9R1ak.js |       0 |        0 |       0 |       0 | 1                 
+  ...n-BuPzkPfP.js |       0 |        0 |       0 |       0 | 1                 
+  q-pXgVlZs6.js    |       0 |        0 |       0 |       0 | 1                 
+  ...B-BMB0ASAc.js |       0 |        0 |       0 |       0 | 1-7               
+  r-B6wPVr8A.js    |       0 |        0 |       0 |       0 | 1                 
+  ...J-C5HUczxz.js |       0 |        0 |       0 |       0 | 1-64              
+  rpm-CTu-6PCP.js  |       0 |        0 |       0 |       0 | 1                 
+  ruby-B2Rjki9n.js |       0 |        0 |       0 |       0 | 1                 
+  ...N-DbrbFxOh.js |       0 |        0 |       0 |       0 | 1-10              
+  sas-B4kiWyti.js  |       0 |        0 |       0 |       0 | 1                 
+  ...e-C41bIUwD.js |       0 |        0 |       0 |       0 | 1                 
+  ...W-CBARJPlD.js |       0 |        0 |       0 |       0 | 1-145             
+  ...l-CjFT_Tl9.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-C3Gn_uJK.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-GW_nhZxv.js |       0 |        0 |       0 |       0 | 1                 
+  ...k-CnHTOXQT.js |       0 |        0 |       0 |       0 | 1                 
+  solr-DehyRSwq.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-DkYu6x3z.js |       0 |        0 |       0 |       0 | 1                 
+  ...t-BCZA_wO0.js |       0 |        0 |       0 |       0 | 1                 
+  sql-D0XecflT.js  |       0 |        0 |       0 |       0 | 1                 
+  ...C-CS-6OBRm.js |       0 |        0 |       0 |       0 | 1                 
+  ...3-CAvKG95o.js |       0 |        0 |       0 |       0 | 1                 
+  stex-C3f8Ysf7.js |       0 |        0 |       0 |       0 | 1                 
+  ...s-B533Al4x.js |       0 |        0 |       0 |       0 | 1                 
+  ...t-BzpIVaGY.js |       0 |        0 |       0 |       0 | 1                 
+  tcl-DVfN8rqt.js  |       0 |        0 |       0 |       0 | 1                 
+  ...e-CnDTJFAw.js |       0 |        0 |       0 |       0 | 1                 
+  ...i-DO-Gjzrf.js |       0 |        0 |       0 |       0 | 1                 
+  tiki-DGYXhP31.js |       0 |        0 |       0 |       0 | 1                 
+  ...I-BtlQP18D.js |       0 |        0 |       0 |       0 | 1-61              
+  toml-Bm5Em-hy.js |       0 |        0 |       0 |       0 | 1                 
+  ...O-BI09U225.js |       0 |        0 |       0 |       0 | 1-162             
+  ...f-wAsdV37c.js |       0 |        0 |       0 |       0 | 1                 
+  ttcn-CfJYG6tj.js |       0 |        0 |       0 |       0 | 1                 
+  ...g-B9xdYoR4.js |       0 |        0 |       0 |       0 | 1                 
+  ...e-B1tBg_DP.js |       0 |        0 |       0 |       0 | 1                 
+  vb-CmGdzxic.js   |       0 |        0 |       0 |       0 | 1                 
+  ...t-BuJXcnF6.js |       0 |        0 |       0 |       0 | 1                 
+  ...y-D8B20fx6.js |       0 |        0 |       0 |       0 | 1                 
+  ...g-C6RDOZhf.js |       0 |        0 |       0 |       0 | 1                 
+  vhdl-lSbBsy5d.js |       0 |        0 |       0 |       0 | 1                 
+  ...l-ZXfAyPTL.js |       0 |        0 |       0 |       0 | 1                 
+  ...y-DzFWVndE.js |       0 |        0 |       0 |       0 | 1                 
+  ...R-Qi6VUYW7.js |       0 |        0 |       0 |       0 | 1-7               
+  ...s-BJ4BC0dw.js |       0 |        0 |       0 |       0 | 1                 
+  z80-Hz9HOZM7.js  |       0 |        0 |       0 |       0 | 1                 
+ ui/public         |       0 |        0 |       0 |       0 |                   
+  sw.js            |       0 |        0 |       0 |       0 | 1-42              
+ ui/src            |       0 |        0 |       0 |       0 |                   
+  App.tsx          |       0 |        0 |       0 |       0 | 1-350             
+  main.tsx         |       0 |        0 |       0 |       0 | 1-70              
+ ui/src/adapters   |       0 |        0 |       0 |       0 |                   
+  index.ts         |       0 |        0 |       0 |       0 | 1-9               
+  ...me-fields.tsx |       0 |        0 |       0 |       0 | 1-5               
+  registry.ts      |       0 |        0 |       0 |       0 | 1-34              
+  ...on-fields.tsx |       0 |        0 |       0 |       0 | 1-122             
+  transcript.ts    |       0 |        0 |       0 |       0 | 1-61              
+  types.ts         |       0 |        0 |       0 |       0 | 1-33              
+ ...s/claude-local |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-138             
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...rs/codex-local |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-104             
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...dapters/cursor |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-49              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...s/gemini-local |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-51              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ .../adapters/http |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-9               
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-38              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-5               
+ ...enclaw-gateway |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-237             
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...opencode-local |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-49              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...pters/pi-local |       0 |        0 |       0 |       0 |                   
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-49              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+ ...apters/process |       0 |        0 |       0 |       0 |                   
+  build-config.ts  |       0 |        0 |       0 |       0 | 1-18              
+  ...ig-fields.tsx |       0 |        0 |       0 |       0 | 1-77              
+  index.ts         |       0 |        0 |       0 |       0 | 1-12              
+  parse-stdout.ts  |       0 |        0 |       0 |       0 | 1-5               
+ ui/src/api        |       0 |        0 |       0 |       0 |                   
+  access.ts        |       0 |        0 |       0 |       0 | 1-159             
+  activity.ts      |       0 |        0 |       0 |       0 | 1-36              
+  agents.ts        |       0 |        0 |       0 |       0 | 1-193             
+  approvals.ts     |       0 |        0 |       0 |       0 | 1-24              
+  assets.ts        |       0 |        0 |       0 |       0 | 1-29              
+  auth.ts          |       0 |        0 |       0 |       0 | 1-74              
+  budgets.ts       |       0 |        0 |       0 |       0 | 1-20              
+  client.ts        |       0 |        0 |       0 |       0 | 1-50              
+  companies.ts     |       0 |        0 |       0 |       0 | 1-81              
+  companySkills.ts |       0 |        0 |       0 |       0 | 1-54              
+  costs.ts         |       0 |        0 |       0 |       0 | 1-59              
+  dashboard.ts     |       0 |        0 |       0 |       0 | 1-6               
+  ...workspaces.ts |       0 |        0 |       0 |       0 | 1-26              
+  goals.ts         |       0 |        0 |       0 |       0 | 1-11              
+  health.ts        |       0 |        0 |       0 |       0 | 1-41              
+  heartbeats.ts    |       0 |        0 |       0 |       0 | 1-61              
+  index.ts         |       0 |        0 |       0 |       0 | 1-18              
+  ...ceSettings.ts |       0 |        0 |       0 |       0 | 1-18              
+  issues.ts        |       0 |        0 |       0 |       0 | 1-106             
+  plugins.ts       |       0 |        0 |       0 |       0 | 1-423             
+  projects.ts      |       0 |        0 |       0 |       0 | 1-33              
+  routines.ts      |       0 |        0 |       0 |       0 | 1-58              
+  secrets.ts       |       0 |        0 |       0 |       0 | 1-25              
+  sidebarBadges.ts |       0 |        0 |       0 |       0 | 1-6               
+ ui/src/components |       0 |        0 |       0 |       0 |                   
+  ...ModelCard.tsx |       0 |        0 |       0 |       0 | 1-69              
+  ...entsPanel.tsx |       0 |        0 |       0 |       0 | 1-156             
+  ...ityCharts.tsx |       0 |        0 |       0 |       0 | 1-263             
+  ActivityRow.tsx  |       0 |        0 |       0 |       0 | 1-146             
+  ...onButtons.tsx |       0 |        0 |       0 |       0 | 1-51              
+  ...onfigForm.tsx |       0 |        0 |       0 |       0 | 1-1467            
+  ...conPicker.tsx |       0 |        0 |       0 |       0 | 1-80              
+  ...roperties.tsx |       0 |        0 |       0 |       0 | 1-106             
+  ApprovalCard.tsx |       0 |        0 |       0 |       0 | 1-106             
+  ...alPayload.tsx |       0 |        0 |       0 |       0 | 1-134             
+  ...Animation.tsx |       0 |        0 |       0 |       0 | 1-348             
+  ...SpendCard.tsx |       0 |        0 |       0 |       0 | 1-145             
+  ...dcrumbBar.tsx |       0 |        0 |       0 |       0 | 1-113             
+  ...identCard.tsx |       0 |        0 |       0 |       0 | 1-100             
+  ...olicyCard.tsx |       0 |        0 |       0 |       0 | 1-219             
+  ...barMarker.tsx |       0 |        0 |       0 |       0 | 1-13              
+  ...tionPanel.tsx |       0 |        0 |       0 |       0 | 1-140             
+  ...tionPanel.tsx |       0 |        0 |       0 |       0 | 1-157             
+  ...ndPalette.tsx |       0 |        0 |       0 |       0 | 1-239             
+  ...entThread.tsx |       0 |        0 |       0 |       0 | 1-502             
+  ...tternIcon.tsx |       0 |        0 |       0 |       0 | 1-212             
+  CompanyRail.tsx  |       0 |        0 |       0 |       0 | 1-328             
+  ...ySwitcher.tsx |       0 |        0 |       0 |       0 | 1-81              
+  CopyText.tsx     |       0 |        0 |       0 |       0 | 1-56              
+  ...artBanner.tsx |       0 |        0 |       0 |       0 | 1-89              
+  EmptyState.tsx   |       0 |        0 |       0 |       0 | 1-27              
+  EntityRow.tsx    |       0 |        0 |       0 |       0 | 1-69              
+  FilterBar.tsx    |       0 |        0 |       0 |       0 | 1-39              
+  ...illerCard.tsx |       0 |        0 |       0 |       0 | 1-44              
+  ...eKindCard.tsx |       0 |        0 |       0 |       0 | 1-43              
+  ...elineCard.tsx |       0 |        0 |       0 |       0 | 1-71              
+  ...roperties.tsx |       0 |        0 |       0 |       0 | 1-164             
+  GoalTree.tsx     |       0 |        0 |       0 |       0 | 1-117             
+  Identity.tsx     |       0 |        0 |       0 |       0 | 1-39              
+  InlineEditor.tsx |       0 |        0 |       0 |       0 | 1-248             
+  ...ySelector.tsx |       0 |        0 |       0 |       0 | 1-206             
+  ...ceSidebar.tsx |       0 |        0 |       0 |       0 | 1-53              
+  ...tsSection.tsx |       0 |        0 |       0 |       0 | 1-891             
+  ...roperties.tsx |       0 |        0 |       0 |       0 | 1-804             
+  IssueRow.tsx     |       0 |        0 |       0 |       0 | 1-123             
+  IssuesList.tsx   |       0 |        0 |       0 |       0 | 1-851             
+  ...chemaForm.tsx |       0 |        0 |       0 |       0 | 1-1048            
+  KanbanBoard.tsx  |       0 |        0 |       0 |       0 | 1-274             
+  Layout.tsx       |       0 |        0 |       0 |       0 | 1-441             
+  ...RunWidget.tsx |       0 |        0 |       0 |       0 | 1-160             
+  MarkdownBody.tsx |       0 |        0 |       0 |       0 | 1-152             
+  ...ownEditor.tsx |       0 |        0 |       0 |       0 | 1-653             
+  MetricCard.tsx   |       0 |        0 |       0 |       0 | 1-53              
+  ...BottomNav.tsx |       0 |        0 |       0 |       0 | 1-123             
+  ...entDialog.tsx |       0 |        0 |       0 |       0 | 1-223             
+  ...oalDialog.tsx |       0 |        0 |       0 |       0 | 1-282             
+  ...sueDialog.tsx |       0 |        0 |       0 |       0 | 1-1472            
+  ...ectDialog.tsx |       0 |        0 |       0 |       0 | 1-425             
+  ...ingWizard.tsx |       0 |        0 |       0 |       0 | 1-1349            
+  ...eLogoIcon.tsx |       0 |        0 |       0 |       0 | 1-22              
+  ...eFileTree.tsx |       0 |        0 |       0 |       0 | 1-317             
+  PageSkeleton.tsx |       0 |        0 |       0 |       0 | 1-180             
+  PageTabBar.tsx   |       0 |        0 |       0 |       0 | 1-45              
+  ...ionsModal.tsx |       0 |        0 |       0 |       0 | 1-143             
+  PriorityIcon.tsx |       0 |        0 |       0 |       0 | 1-77              
+  ...roperties.tsx |       0 |        0 |       0 |       0 | 1-1126            
+  ...tiesPanel.tsx |       0 |        0 |       0 |       0 | 1-29              
+  ...QuotaCard.tsx |       0 |        0 |       0 |       0 | 1-416             
+  QuotaBar.tsx     |       0 |        0 |       0 |       0 | 1-65              
+  ...sToPicker.tsx |       0 |        0 |       0 |       0 | 1-126             
+  ...uleEditor.tsx |       0 |        0 |       0 |       0 | 1-344             
+  ...lToBottom.tsx |       0 |        0 |       0 |       0 | 1-79              
+  Sidebar.tsx      |       0 |        0 |       0 |       0 | 1-128             
+  ...barAgents.tsx |       0 |        0 |       0 |       0 | 1-155             
+  ...arNavItem.tsx |       0 |        0 |       0 |       0 | 1-92              
+  ...rProjects.tsx |       0 |        0 |       0 |       0 | 1-233             
+  ...arSection.tsx |       0 |        0 |       0 |       0 | 1-17              
+  StatusBadge.tsx  |       0 |        0 |       0 |       0 | 1-15              
+  StatusIcon.tsx   |       0 |        0 |       0 |       0 | 1-71              
+  ...tViewport.tsx |       0 |        0 |       0 |       0 | 1-99              
+  ...reeBanner.tsx |       0 |        0 |       0 |       0 | 1-25              
+  ...g-defaults.ts |       0 |        0 |       0 |       0 | 1-30              
+  ...rimitives.tsx |       0 |        0 |       0 |       0 | 1-475             
+ ...nts/transcript |       0 |        0 |       0 |       0 |                   
+  ...criptView.tsx |       0 |        0 |       0 |       0 | 1-1015            
+  ...ranscripts.ts |       0 |        0 |       0 |       0 | 1-296             
+ .../components/ui |       0 |        0 |       0 |       0 |                   
+  avatar.tsx       |       0 |        0 |       0 |       0 | 1-107             
+  badge.tsx        |       0 |        0 |       0 |       0 | 1-48              
+  breadcrumb.tsx   |       0 |        0 |       0 |       0 | 1-109             
+  button.tsx       |       0 |        0 |       0 |       0 | 1-64              
+  card.tsx         |       0 |        0 |       0 |       0 | 1-92              
+  checkbox.tsx     |       0 |        0 |       0 |       0 | 1-32              
+  collapsible.tsx  |       0 |        0 |       0 |       0 | 1-33              
+  command.tsx      |       0 |        0 |       0 |       0 | 1-194             
+  dialog.tsx       |       0 |        0 |       0 |       0 | 1-156             
+  ...down-menu.tsx |       0 |        0 |       0 |       0 | 1-257             
+  input.tsx        |       0 |        0 |       0 |       0 | 1-21              
+  label.tsx        |       0 |        0 |       0 |       0 | 1-22              
+  popover.tsx      |       0 |        0 |       0 |       0 | 1-88              
+  scroll-area.tsx  |       0 |        0 |       0 |       0 | 1-56              
+  select.tsx       |       0 |        0 |       0 |       0 | 1-188             
+  separator.tsx    |       0 |        0 |       0 |       0 | 1-28              
+  sheet.tsx        |       0 |        0 |       0 |       0 | 1-143             
+  skeleton.tsx     |       0 |        0 |       0 |       0 | 1-13              
+  tabs.tsx         |       0 |        0 |       0 |       0 | 1-89              
+  textarea.tsx     |       0 |        0 |       0 |       0 | 1-18              
+  tooltip.tsx      |       0 |        0 |       0 |       0 | 1-57              
+ ui/src/context    |       0 |        0 |       0 |       0 |                   
+  ...mbContext.tsx |       0 |        0 |       0 |       0 | 1-44              
+  ...nyContext.tsx |       0 |        0 |       0 |       0 | 1-150             
+  ...ogContext.tsx |       0 |        0 |       0 |       0 | 1-135             
+  ...sProvider.tsx |       0 |        0 |       0 |       0 | 1-758             
+  PanelContext.tsx |       0 |        0 |       0 |       0 | 1-73              
+  ...arContext.tsx |       0 |        0 |       0 |       0 | 1-43              
+  ThemeContext.tsx |       0 |        0 |       0 |       0 | 1-83              
+  ToastContext.tsx |       0 |        0 |       0 |       0 | 1-172             
+ ui/src/fixtures   |       0 |        0 |       0 |       0 |                   
+  ...ptFixtures.ts |       0 |        0 |       0 |       0 | 1-225             
+ ui/src/hooks      |       0 |        0 |       0 |       0 |                   
+  ...eIndicator.ts |       0 |        0 |       0 |       0 | 1-72              
+  ...PageMemory.ts |       0 |        0 |       0 |       0 | 1-79              
+  useDateRange.ts  |       0 |        0 |       0 |       0 | 1-120             
+  useInboxBadge.ts |       0 |        0 |       0 |       0 | 1-108             
+  ...dShortcuts.ts |       0 |        0 |       0 |       0 | 1-40              
+  ...ojectOrder.ts |       0 |        0 |       0 |       0 | 1-104             
+ ui/src/lib        |       0 |        0 |       0 |       0 |                   
+  agent-icons.ts   |       0 |        0 |       0 |       0 | 1-98              
+  ...ills-state.ts |       0 |        0 |       0 |       0 | 1-40              
+  assignees.ts     |       0 |        0 |       0 |       0 | 1-82              
+  ...r-contrast.ts |       0 |        0 |       0 |       0 | 1-107             
+  ...age-memory.ts |       0 |        0 |       0 |       0 | 1-65              
+  ...any-routes.ts |       0 |        0 |       0 |       0 | 1-88              
+  ...-selection.ts |       0 |        0 |       0 |       0 | 1-18              
+  groupBy.ts       |       0 |        0 |       0 |       0 | 1-11              
+  inbox.ts         |       0 |        0 |       0 |       0 | 1-253             
+  ...e-settings.ts |       0 |        0 |       0 |       0 | 1-25              
+  ...Breadcrumb.ts |       0 |        0 |       0 |       0 | 1-24              
+  ...ent-config.ts |       0 |        0 |       0 |       0 | 1-17              
+  mention-chips.ts |       0 |        0 |       0 |       0 | 1-167             
+  ...n-deletion.ts |       0 |        0 |       0 |       0 | 1-143             
+  model-utils.ts   |       0 |        0 |       0 |       0 | 1-16              
+  ...rding-goal.ts |       0 |        0 |       0 |       0 | 1-18              
+  ...ding-route.ts |       0 |        0 |       0 |       0 | 1-51              
+  ...able-files.ts |       0 |        0 |       0 |       0 | 1-41              
+  project-order.ts |       0 |        0 |       0 |       0 | 1-70              
+  queryKeys.ts     |       0 |        0 |       0 |       0 | 1-139             
+  ...-assignees.ts |       0 |        0 |       0 |       0 | 1-36              
+  router.tsx       |       0 |        0 |       0 |       0 | 1-76              
+  ...gger-patch.ts |       0 |        0 |       0 |       0 | 1-30              
+  status-colors.ts |       0 |        0 |       0 |       0 | 1-108             
+  timeAgo.ts       |       0 |        0 |       0 |       0 | 1-31              
+  utils.ts         |       0 |        0 |       0 |       0 | 1-167             
+  ...e-branding.ts |       0 |        0 |       0 |       0 | 1-65              
+  zip.ts           |       0 |        0 |       0 |       0 | 1-283             
+ ui/src/pages      |       0 |        0 |       0 |       0 |                   
+  Activity.tsx     |       0 |        0 |       0 |       0 | 1-140             
+  AgentDetail.tsx  |       0 |        0 |       0 |       0 | 1-4036            
+  Agents.tsx       |       0 |        0 |       0 |       0 | 1-414             
+  ...valDetail.tsx |       0 |        0 |       0 |       0 | 1-368             
+  Approvals.tsx    |       0 |        0 |       0 |       0 | 1-132             
+  Auth.tsx         |       0 |        0 |       0 |       0 | 1-180             
+  BoardClaim.tsx   |       0 |        0 |       0 |       0 | 1-125             
+  CliAuth.tsx      |       0 |        0 |       0 |       0 | 1-184             
+  Companies.tsx    |       0 |        0 |       0 |       0 | 1-297             
+  ...anyExport.tsx |       0 |        0 |       0 |       0 | 1-919             
+  ...anyImport.tsx |       0 |        0 |       0 |       0 | 1-1295            
+  ...ySettings.tsx |       0 |        0 |       0 |       0 | 1-661             
+  ...anySkills.tsx |       0 |        0 |       0 |       0 | 1-1170            
+  Costs.tsx        |       0 |        0 |       0 |       0 | 1-1102            
+  Dashboard.tsx    |       0 |        0 |       0 |       0 | 1-387             
+  DesignGuide.tsx  |       0 |        0 |       0 |       0 | 1-1330            
+  ...aceDetail.tsx |       0 |        0 |       0 |       0 | 1-82              
+  GoalDetail.tsx   |       0 |        0 |       0 |       0 | 1-196             
+  Goals.tsx        |       0 |        0 |       0 |       0 | 1-63              
+  Inbox.tsx        |       0 |        0 |       0 |       0 | 1-924             
+  ...lSettings.tsx |       0 |        0 |       0 |       0 | 1-139             
+  ...lSettings.tsx |       0 |        0 |       0 |       0 | 1-104             
+  ...eSettings.tsx |       0 |        0 |       0 |       0 | 1-211             
+  ...teLanding.tsx |       0 |        0 |       0 |       0 | 1-319             
+  IssueDetail.tsx  |       0 |        0 |       0 |       0 | 1-1191            
+  Issues.tsx       |       0 |        0 |       0 |       0 | 1-122             
+  MyIssues.tsx     |       0 |        0 |       0 |       0 | 1-72              
+  NewAgent.tsx     |       0 |        0 |       0 |       0 | 1-352             
+  NotFound.tsx     |       0 |        0 |       0 |       0 | 1-66              
+  Org.tsx          |       0 |        0 |       0 |       0 | 1-132             
+  OrgChart.tsx     |       0 |        0 |       0 |       0 | 1-446             
+  ...inManager.tsx |       0 |        0 |       0 |       0 | 1-509             
+  PluginPage.tsx   |       0 |        0 |       0 |       0 | 1-156             
+  ...nSettings.tsx |       0 |        0 |       0 |       0 | 1-836             
+  ...ectDetail.tsx |       0 |        0 |       0 |       0 | 1-632             
+  Projects.tsx     |       0 |        0 |       0 |       0 | 1-87              
+  ...ineDetail.tsx |       0 |        0 |       0 |       0 | 1-1021            
+  Routines.tsx     |       0 |        0 |       0 |       0 | 1-661             
+  ...riptUxLab.tsx |       0 |        0 |       0 |       0 | 1-334             
+ ui/src/plugins    |       0 |        0 |       0 |       0 |                   
+  bridge-init.ts   |       0 |        0 |       0 |       0 | 1-69              
+  bridge.ts        |       0 |        0 |       0 |       0 | 1-475             
+  launchers.tsx    |       0 |        0 |       0 |       0 | 1-833             
+  slots.tsx        |       0 |        0 |       0 |       0 | 1-854             
+-------------------|---------|----------|---------|---------|-------------------

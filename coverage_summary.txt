@@ -1,0 +1,32 @@
+
+⎯⎯⎯⎯⎯⎯⎯ Startup Error ⎯⎯⎯⎯⎯⎯⎯⎯
+Error: Failed to load custom Reporter from text-summary
+    at loadCustomReporterModule (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:7705:9)
+    at async file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:7723:28
+    ... 3 lines matching cause stack trace ...
+    at async _createServer (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite@7.3.1_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite/dist/node/chunks/config.js:25603:86)
+    at async createViteServer (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:6911:17)
+    at async createVitest (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:10202:17)
+    at async prepareVitest (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:10541:14)
+    at async startVitest (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:10488:14) {
+  [cause]: Error: Cannot find package 'text-summary'
+      at ViteNodeRunner._fetchModule (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite-node@3.2.4_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite-node/dist/client.mjs:247:19)
+      at async ViteNodeRunner.directRequest (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite-node@3.2.4_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite-node/dist/client.mjs:268:44)
+      at async ViteNodeRunner.cachedRequest (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite-node@3.2.4_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite-node/dist/client.mjs:189:11)
+      at async ViteNodeRunner.executeId (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite-node@3.2.4_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite-node/dist/client.mjs:166:10)
+      at async loadCustomReporterModule (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:7703:26)
+      at async file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:7723:28
+      at async Promise.all (index 0)
+      at async Vitest._setServer (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:9341:138)
+      at async BasicMinimalPluginContext.handler (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vitest@3.2.4_@types+debug@4.1.12_@types+node@25.2.3_jiti@2.6.1_jsdom@28.1.0_@noble+hashes@2.0_mqcfvgfdrjnnoo74iikdalygga/node_modules/vitest/dist/chunks/cli-api.BkDphVBG.js:10169:6)
+      at async _createServer (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite@7.3.1_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite/dist/node/chunks/config.js:25603:86) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    [cause]: Error: Failed to load url text-summary (resolved id: text-summary). Does the file exist?
+        at loadAndTransform (file:///home/creator/PROJECTS/Slovor%20Web%20Studio/node_modules/.pnpm/vite@7.3.1_@types+node@25.2.3_jiti@2.6.1_lightningcss@1.30.2_tsx@4.21.0/node_modules/vite/dist/node/chunks/config.js:22663:33) {
+      code: 'ERR_LOAD_URL'
+    }
+  }
+}
+
+
+
